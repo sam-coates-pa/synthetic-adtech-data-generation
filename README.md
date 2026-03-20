@@ -63,6 +63,7 @@ Includes realistic civilian vs. official narratives.
 
 Outputs to:
 social_data_simulated.json
+
 Structured list of social posts (text, hashtags, times, geo, platform, interactions).
 
 
