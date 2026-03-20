@@ -23,6 +23,7 @@ Outputs device_id, timestamp, latitude, longitude.
 
 ### Phase 2 (synthetic_adtech_phase2.py)
 Purpose: Introduces scenario logic for event attendance and device congregation.
+
 Features:
 Simulates an event, with spike in device density near the event location.
 Background movement mimics Phase 1 otherwise.
@@ -30,6 +31,7 @@ Background movement mimics Phase 1 otherwise.
 
 ### Phase 3 (synthetic_adtech_phase3.py)
 Purpose: Adds advanced behaviors: rapid egress, stationary patterns, random seeds for reproducibility.
+
 Features:
 Realistic incident response, with diverse movement (fleeing/stationary).
 Improved event scenario modeling.
@@ -38,20 +40,24 @@ Deterministic output when seed specified.
 
 ### Phase 4 (synthetic_adtech_phase4.py)
 Purpose: Finalizes the multi-phase simulation, organizes output, highlights device/event summary.
+
 Features:
 Comprehensive synthetic scenario, with all prior improvements.
 Output written to synthetic_adtech_phase4_output.csv.
 Detailed summary of unique devices/event footprints.
+
 Output Example:
 synthetic_adtech_phase4_output.csv
-Columns: device_id, timestamp, latitude, longitude, event (optional), etc.
+Columns: device_id, timestamp, latitude, longitude
 
 
 ## Social Media Data Simulation
 generate_social_mock_updated.py
+
 Supplements the above device data by generating synthetic social media posts related to the event.
 Incident, community, and background posts are timestamped and often geo-tagged.
 Includes realistic civilian vs. official narratives.
+
 Outputs to:
 social_data_simulated.json
 Structured list of social posts (text, hashtags, times, geo, platform, interactions).
@@ -59,5 +65,6 @@ Structured list of social posts (text, hashtags, times, geo, platform, interacti
 
 ## Requirements
 Python 3.x
+
 Libraries: numpy, pandas, dateutil, etc.
 (Install via pip as needed: pip install numpy pandas python-dateutil)
