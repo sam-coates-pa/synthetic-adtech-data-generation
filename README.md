@@ -8,6 +8,9 @@ This repository provides a full pipeline for generating synthetic device mobilit
 - synthetic_adtech_phase2.py
 - synthetic_adtech_phase3.py
 - synthetic_adtech_phase4.py
+- synthetic_adtech_phase1_output.csv
+- synthetic_adtech_phase2_output.csv
+- synthetic_adtech_phase3_output.csv
 - synthetic_adtech_phase4_output.csv
 - generate_social_mock_updated.py
 - social_data_simulated.json
