@@ -12,8 +12,8 @@ This repository provides a full pipeline for generating synthetic device mobilit
 - synthetic_adtech_phase2_output.csv
 - synthetic_adtech_phase3_output.csv
 - synthetic_adtech_phase4_output.csv
-- generate_social_mock_updated.py
-- social_data_simulated.json
+- social_media_post_generator.py
+- social_media_data.json
 
 ## Phase Overview
 
@@ -55,14 +55,14 @@ Columns: device_id, timestamp, latitude, longitude
 
 
 ## Social Media Data Simulation
-generate_social_mock_updated.py
+social_media_post_generator.py
 
 Supplements the above device data by generating synthetic social media posts related to the event.
 Incident, community, and background posts are timestamped and often geo-tagged.
 Includes realistic civilian vs. official narratives.
 
 Outputs to:
-social_data_simulated.json
+social_media_data.json
 
 Structured list of social posts (text, hashtags, times, geo, platform, interactions).
 
